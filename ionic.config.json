@@ -1,0 +1,7 @@
+{
+  "name": "ejSimul",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
