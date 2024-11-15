@@ -1,0 +1,13 @@
+
+<ion-content class="ion-padding">
+<swiper-contairer pagination = "true">
+  @for (slide of datos; track $index){
+    <swiper-slide>
+      <div class="contenedor">
+        <ion-img class="imagen-slide" [src]="slide.imagen"></ion-img>
+        <ion-label color="{{slide.color}}">{{slide.texto}}</ion-label>
+      </div>
+    </swiper-slide>
+  }
+</swiper-contairer>
+</ion-content>
